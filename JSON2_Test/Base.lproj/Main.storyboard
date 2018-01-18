@@ -12,8 +12,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Zapfino.ttf">
-            <string>Zapfino</string>
+        <array key="SnellRoundhand.ttc">
+            <string>SnellRoundhand</string>
         </array>
     </customFonts>
     <scenes>
