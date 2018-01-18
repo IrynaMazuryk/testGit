@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fwr-q5-HcX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fwr-q5-HcX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -167,10 +168,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconUser" translatesAutoresizingMaskIntoConstraints="NO" id="uar-eA-tdL">
-                                                    <rect key="frame" x="15" y="8" width="185" height="181.5"/>
+                                                    <rect key="frame" x="22" y="10.5" width="171" height="176.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ID-kn-mn4">
-                                                    <rect key="frame" x="219" y="5" width="144" height="20"/>
+                                                    <rect key="frame" x="212" y="8" width="144" height="20"/>
                                                     <color key="backgroundColor" red="0.64868812340000004" green="0.92474240060000001" blue="0.74445861540000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="7KZ-gA-OvQ"/>
@@ -181,13 +182,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ap6-Zy-gXl">
-                                                    <rect key="frame" x="253" y="166" width="115" height="21"/>
+                                                    <rect key="frame" x="246" y="166" width="115" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8p-z1-pGx">
-                                                    <rect key="frame" x="219" y="32" width="144" height="20"/>
+                                                    <rect key="frame" x="212" y="35" width="144" height="20"/>
                                                     <color key="backgroundColor" red="0.64868812340000004" green="0.92474240060000001" blue="0.74445861540000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="TwS-kp-eRL"/>
@@ -199,7 +200,6 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.4862609936615595" green="0.85853308703108722" blue="0.91817396879196167" alpha="0.34629173801369861" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="uar-eA-tdL" firstAttribute="top" secondItem="0Vd-R0-WjF" secondAttribute="top" constant="8" id="2wA-KC-tqs"/>
                                                 <constraint firstItem="o8p-z1-pGx" firstAttribute="top" secondItem="7ID-kn-mn4" secondAttribute="bottom" constant="7" id="43W-m9-Ezf"/>
                                                 <constraint firstAttribute="bottom" secondItem="Ap6-Zy-gXl" secondAttribute="bottom" constant="10.5" id="4n0-x6-RUo"/>
                                                 <constraint firstItem="uar-eA-tdL" firstAttribute="centerY" secondItem="0Vd-R0-WjF" secondAttribute="centerY" id="Aol-S4-frk"/>
